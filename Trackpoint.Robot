@@ -177,7 +177,7 @@ Retry Login
     Sleep    2s
     Input Text    id=Password1    evere$t16
     Sleep    1s
-    Click Button    id=Image1
+    Click Button    id=Image2
     Sleep    1s
     Click Element    Xpath=/html/body/font/div[3]/center/b/i/font/a[1]
     Capture Page Screenshot    Filename=invalidUsernameAndPassword.png
